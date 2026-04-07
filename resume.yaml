@@ -3,9 +3,6 @@ cv:
   location: "Berlin, DE"
   email: "torben.haack@ipv4.8shield.net"
   website: "https://t128n.dev"
-  social_networks:
-    - network: "GitHub"
-      username: "t128n"
   custom_connections:
     - placeholder: "github.com/t128n"
       url: "https://github.com/t128n"
