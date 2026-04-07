@@ -1,0 +1,13 @@
+# Build artifacts
+rendercv_output/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.uv/
+
+# OS files
+.DS_Store
+Thumbs.db

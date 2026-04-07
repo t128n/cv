@@ -1,0 +1,37 @@
+name: Render Resume
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'resume.yaml'
+      - 'pyproject.toml'
+      - 'uv.lock'
+      - 'scripts/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+          python-version: "3.12"
+
+      - name: Render resume
+        run: |
+          uv run scripts/render.py
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs: Update resume PDF and README"
+          file_pattern: 'dist/Torben-Haack.pdf README.md'

@@ -1,0 +1,90 @@
+cv:
+  name: "Torben Haack"
+  location: "Berlin, DE"
+  email: "torben.haack@ipv4.8shield.net"
+  website: "https://t128n.dev"
+  social_networks:
+    - network: "GitHub"
+      username: "t128n"
+  custom_connections:
+    - placeholder: "github.com/t128n"
+      url: "https://github.com/t128n"
+      fontawesome_icon: "user"
+    - placeholder: "Sifa ID"
+      url: "https://sifa.id/p/t128n.dev"
+      fontawesome_icon: "user"
+  sections:
+    summary:
+      - "TPO and Software Engineer in the automotive industry, focused on developing and managing data and software systems. Passionate about open-source technology. Part-time student of Business Informatics at BHT Berlin."
+    education:
+      - institution: "Berliner Hochschule für Technik (BHT)"
+        area: "Business Informatics (part-time)"
+        degree: "BS"
+        start_date: "2025-10"
+        end_date: "2031-01"
+        highlights: []
+      - institution: "Oberstufenzentrum für Informations- und Medizintechnik Berlin-Neukölln"
+        area: "Computer Science / Data and Process Analysis"
+        degree: "Voc. Qual."
+        start_date: "2022-09"
+        end_date: "2024-12"
+        highlights: []
+    experience:
+      - company: "Mercedes-Benz AG"
+        position: "Technical Product Owner & Software Engineer"
+        start_date: "2026-01"
+        end_date: present
+        highlights:
+          - "Technical Product Owner of an OT Cloud-Gateway, owning roadmap, stakeholder alignment, and community."
+          - "IIoT Community Manager, establishing knowledge-sharing structures and engineering standards across teams in a global automotive environment."
+          - "Develop IIoT data products and internal engineering tooling."
+      - company: "Mercedes-Benz AG"
+        position: "Software Engineer"
+        start_date: "2025-01"
+        end_date: "2026-01"
+        highlights:
+          - "Engineered IIoT data products."
+          - "Built automated testing systems for Windows OT image compliance."
+          - "Defined engineering standards, managed internal version control, and built automation tooling."
+      - company: "Mercedes-Benz AG"
+        position: "Apprentice Computer Science Expert for Data and Process Analysis"
+        start_date: "2022-09"
+        end_date: "2025-01"
+        highlights:
+          - "Built automation tools and data quality dashboards."
+          - "Co-trained incoming apprentices."
+          - "Delivered technical webinars on GitHub and development standards."
+          - "Completed program 6 months ahead of schedule."
+    projects:
+      - name: "fidup-wiki"
+        date: "2025-11"
+        highlights:
+          - "A free, open-source knowledge base for trainees preparing for the final exam of the German vocational qualification in Data and Process Analysis (Fachinformatiker für Daten- und Prozessanalyse). Covers comprehensive learning material and practice exercises across all relevant exam topics."
+      - name: "Packy"
+        highlights:
+          - "A browser-based tool that resolves the full dependency tree of any npm package and bundles it, along with all transitive dependencies, into a single, self-contained tarball. No backend required; runs entirely in the browser via WebContainers. Built for deploying packages to air-gapped or network-restricted environments where direct registry access isn't available."
+    additional_experience_and_awards:
+      - label: "Top Graduate Computer Science Expert for Data and Process Analysis 2025 (Berlin)"
+        details: "IHK Berlin"
+    technologies:
+      - label: "Languages"
+        details: "TypeScript, Python, PySpark, SQL, Node.js"
+      - label: "Frameworks & Tools"
+        details: "React, Vue.js, Express, Databricks, MQTT, CI/CD, Git, Docker, Linux"
+    certificates:
+      - label: "GitHub Foundations"
+        details: "GitHub · 2024-12"
+    languages:
+      - label: "English"
+        details: "Full professional"
+      - label: "German"
+        details: "Native or bilingual"
+
+design:
+  theme: harvard
+
+locale:
+  language: english
+
+settings:
+  current_date: today
