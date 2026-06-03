@@ -35,10 +35,10 @@ cv:
         start_date: "2026-01"
         end_date: present
         highlights:
-          - "Technical Product Owner of an OT Cloud-Gateway, owning roadmap, stakeholder alignment, and community."
+          - "Technical Product Owner of an OT Cloud Gateway, owning roadmap and stakeholder alignment."
+          - "Software Engineer for internally developed OT Cloud Gateway core services, IIoT data products, and internal engineering tooling."
           - "IIoT Community Manager, establishing knowledge-sharing structures and engineering standards across teams in a global automotive environment."
-          - "Develop IIoT data products and internal engineering tooling."
-          - "Subject-Matter Trainer, mentoring and training apprentices in IIoT, data engineering, and software engineering practices."
+          - "Subject-Matter Trainer, mentoring apprentices in IIoT, data engineering, and software engineering practices."
       - company: "Mercedes-Benz AG"
         position: "Software Engineer"
         start_date: "2025-01"
