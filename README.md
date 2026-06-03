@@ -32,13 +32,13 @@ Sept 2022 – Dec 2024
 
 Jan 2026 – present
 
-- Technical Product Owner of an OT Cloud-Gateway, owning roadmap, stakeholder alignment, and community.
+- Technical Product Owner of an OT Cloud Gateway, owning roadmap and stakeholder alignment.
+
+- Software Engineer for internally developed OT Cloud Gateway core services, IIoT data products, and internal engineering tooling.
 
 - IIoT Community Manager, establishing knowledge-sharing structures and engineering standards across teams in a global automotive environment.
 
-- Develop IIoT data products and internal engineering tooling.
-
-- Subject-Matter Trainer, mentoring and training apprentices in IIoT, data engineering, and software engineering practices.
+- Subject-Matter Trainer, mentoring apprentices in IIoT, data engineering, and software engineering practices.
 
 
 
