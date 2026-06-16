@@ -1,0 +1,63 @@
+{
+  "summary": "Technical Product Owner und Software Engineer mit Schwerpunkt auf Datensystemen, Platform Engineering und Developer Tooling. Leidenschaft für Open-Source-Technologien. Berufsbegleitendes Studium der Wirtschaftsinformatik an der BHT Berlin.",
+  "education": {
+    "bht": {
+      "area": "Wirtschaftsinformatik (berufsbegleitend)",
+      "degree": "B.Sc."
+    },
+    "oszimt": {
+      "area": "Fachinformatik für Daten- und Prozessanalyse",
+      "degree": "Berufsabschluss"
+    }
+  },
+  "experience": {
+    "current": {
+      "position": "Technical Product Owner & Software Engineer",
+      "highlight_1": "Technical Product Owner eines OT Cloud Gateways mit Verantwortung für Roadmap und Stakeholder-Abstimmung.",
+      "highlight_2": "Software Engineer für intern entwickelte Kernservices des OT Cloud Gateways, IIoT-Datenprodukte und internes Engineering Tooling.",
+      "highlight_3": "IIoT Community Manager mit Aufbau von Wissensaustauschstrukturen und Engineering-Standards über Teams hinweg in einem globalen Automotive-Umfeld.",
+      "highlight_4": "Fachtrainer für Auszubildende in IIoT, Data Engineering und Software-Engineering-Praktiken."
+    },
+    "software_engineer": {
+      "position": "Software Engineer",
+      "highlight_1": "Entwicklung von IIoT-Datenprodukten.",
+      "highlight_2": "Aufbau automatisierter Testsysteme für die Compliance von Windows-OT-Images.",
+      "highlight_3": "Definition von Engineering-Standards, Verwaltung interner Versionskontrolle und Entwicklung von Automatisierungstooling."
+    },
+    "apprenticeship": {
+      "position": "Auszubildender Fachinformatiker für Daten- und Prozessanalyse",
+      "highlight_1": "Entwicklung von Automatisierungstools und Dashboards für Datenqualität.",
+      "highlight_2": "Mitbetreuung neuer Auszubildender.",
+      "highlight_3": "Durchführung technischer Webinare zu GitHub und Entwicklungsstandards.",
+      "highlight_4": "Abschluss der Ausbildung 6 Monate vor der regulären Ausbildungsdauer."
+    }
+  },
+  "projects": {
+    "fidup_wiki": {
+      "description": "Freie, quelloffene Wissensbasis für Auszubildende zur Vorbereitung auf die Abschlussprüfung zum Fachinformatiker für Daten- und Prozessanalyse. Umfasst Lernmaterialien und Übungsaufgaben zu allen relevanten Prüfungsthemen."
+    },
+    "packy": {
+      "description": "Browserbasiertes Tool, das den vollständigen Dependency Tree eines npm-Pakets auflöst und inklusive aller transitiven Abhängigkeiten in ein einzelnes, eigenständiges Tarball bündelt. Kein Backend erforderlich; läuft vollständig im Browser via WebContainers. Entwickelt für Deployments in air-gapped oder netzwerkbeschränkten Umgebungen ohne direkten Registry-Zugriff."
+    }
+  },
+  "awards": {
+    "top_graduate": {
+      "label": "Bester Absolvent Fachinformatik für Daten- und Prozessanalyse 2025 (Berlin)"
+    }
+  },
+  "technologies": {
+    "data_engineering": "Data Engineering",
+    "software_engineering": "Software Engineering",
+    "business": "Business"
+  },
+  "languages": {
+    "english": {
+      "label": "Englisch",
+      "details": "Verhandlungssicher"
+    },
+    "german": {
+      "label": "Deutsch",
+      "details": "Muttersprache"
+    }
+  }
+}

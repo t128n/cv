@@ -1,0 +1,63 @@
+{
+  "summary": "Technical Product Owner and Software Engineer focused on data systems, platform engineering, and developer tooling. Passionate about open-source technology. Part-time student of Business Informatics at BHT Berlin.",
+  "education": {
+    "bht": {
+      "area": "Business Informatics (part-time)",
+      "degree": "BS"
+    },
+    "oszimt": {
+      "area": "Computer Science / Data and Process Analysis",
+      "degree": "Voc. Qual."
+    }
+  },
+  "experience": {
+    "current": {
+      "position": "Technical Product Owner & Software Engineer",
+      "highlight_1": "Technical Product Owner of an OT Cloud Gateway, owning roadmap and stakeholder alignment.",
+      "highlight_2": "Software Engineer for internally developed OT Cloud Gateway core services, IIoT data products, and internal engineering tooling.",
+      "highlight_3": "IIoT Community Manager, establishing knowledge-sharing structures and engineering standards across teams in a global automotive environment.",
+      "highlight_4": "Subject-Matter Trainer, mentoring apprentices in IIoT, data engineering, and software engineering practices."
+    },
+    "software_engineer": {
+      "position": "Software Engineer",
+      "highlight_1": "Engineered IIoT data products.",
+      "highlight_2": "Built automated testing systems for Windows OT image compliance.",
+      "highlight_3": "Defined engineering standards, managed internal version control, and built automation tooling."
+    },
+    "apprenticeship": {
+      "position": "Apprentice Computer Science Expert for Data and Process Analysis",
+      "highlight_1": "Built automation tools and data quality dashboards.",
+      "highlight_2": "Co-trained incoming apprentices.",
+      "highlight_3": "Delivered technical webinars on GitHub and development standards.",
+      "highlight_4": "Completed program 6 months ahead of schedule."
+    }
+  },
+  "projects": {
+    "fidup_wiki": {
+      "description": "A free, open-source knowledge base for trainees preparing for the final exam of the German vocational qualification in Data and Process Analysis (Fachinformatiker für Daten- und Prozessanalyse). Covers comprehensive learning material and practice exercises across all relevant exam topics."
+    },
+    "packy": {
+      "description": "A browser-based tool that resolves the full dependency tree of any npm package and bundles it, along with all transitive dependencies, into a single, self-contained tarball. No backend required; runs entirely in the browser via WebContainers. Built for deploying packages to air-gapped or network-restricted environments where direct registry access isn't available."
+    }
+  },
+  "awards": {
+    "top_graduate": {
+      "label": "Top Graduate Computer Science Expert for Data and Process Analysis 2025 (Berlin)"
+    }
+  },
+  "technologies": {
+    "data_engineering": "Data Engineering",
+    "software_engineering": "Software Engineering",
+    "business": "Business"
+  },
+  "languages": {
+    "english": {
+      "label": "English",
+      "details": "Full professional"
+    },
+    "german": {
+      "label": "German",
+      "details": "Native or bilingual"
+    }
+  }
+}

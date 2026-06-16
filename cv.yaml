@@ -12,78 +12,75 @@ cv:
       fontawesome_icon: "user"
   sections:
     summary:
-      - "Technical Product Owner and Software Engineer focused on data
-        systems, platform engineering, and developer tooling. Passionate
-        about open-source technology. Part-time student of Business
-        Informatics at BHT Berlin."
+      - "i18n.summary"
     education:
       - institution: "Berliner Hochschule für Technik (BHT)"
-        area: "Business Informatics (part-time)"
-        degree: "BS"
+        area: "i18n.education.bht.area"
+        degree: "i18n.education.bht.degree"
         start_date: "2025-10"
         end_date: "2031-01"
         highlights: []
       - institution: "Oberstufenzentrum für Informations- und Medizintechnik Berlin-Neukölln"
-        area: "Computer Science / Data and Process Analysis"
-        degree: "Voc. Qual."
+        area: "i18n.education.oszimt.area"
+        degree: "i18n.education.oszimt.degree"
         start_date: "2022-09"
         end_date: "2024-12"
         highlights: []
     experience:
       - company: "Mercedes-Benz AG"
-        position: "Technical Product Owner & Software Engineer"
+        position: "i18n.experience.current.position"
         start_date: "2026-01"
         end_date: present
         highlights:
-          - "Technical Product Owner of an OT Cloud Gateway, owning roadmap and stakeholder alignment."
-          - "Software Engineer for internally developed OT Cloud Gateway core services, IIoT data products, and internal engineering tooling."
-          - "IIoT Community Manager, establishing knowledge-sharing structures and engineering standards across teams in a global automotive environment."
-          - "Subject-Matter Trainer, mentoring apprentices in IIoT, data engineering, and software engineering practices."
+          - "i18n.experience.current.highlight_1"
+          - "i18n.experience.current.highlight_2"
+          - "i18n.experience.current.highlight_3"
+          - "i18n.experience.current.highlight_4"
       - company: "Mercedes-Benz AG"
-        position: "Software Engineer"
+        position: "i18n.experience.software_engineer.position"
         start_date: "2025-01"
         end_date: "2026-01"
         highlights:
-          - "Engineered IIoT data products."
-          - "Built automated testing systems for Windows OT image compliance."
-          - "Defined engineering standards, managed internal version control, and built automation tooling."
+          - "i18n.experience.software_engineer.highlight_1"
+          - "i18n.experience.software_engineer.highlight_2"
+          - "i18n.experience.software_engineer.highlight_3"
       - company: "Mercedes-Benz AG"
-        position: "Apprentice Computer Science Expert for Data and Process Analysis"
+        position: "i18n.experience.apprenticeship.position"
         start_date: "2022-09"
         end_date: "2025-01"
         highlights:
-          - "Built automation tools and data quality dashboards."
-          - "Co-trained incoming apprentices."
-          - "Delivered technical webinars on GitHub and development standards."
-          - "Completed program 6 months ahead of schedule."
+          - "i18n.experience.apprenticeship.highlight_1"
+          - "i18n.experience.apprenticeship.highlight_2"
+          - "i18n.experience.apprenticeship.highlight_3"
+          - "i18n.experience.apprenticeship.highlight_4"
     projects:
       - name: "fidup-wiki"
         date: "2025-11"
         highlights:
-          - "A free, open-source knowledge base for trainees preparing for the final exam of the German vocational qualification in Data and Process Analysis (Fachinformatiker für Daten- und Prozessanalyse). Covers comprehensive learning material and practice exercises across all relevant exam topics."
+          - "i18n.projects.fidup_wiki.description"
       - name: "Packy"
         highlights:
-          - "A browser-based tool that resolves the full dependency tree of any npm package and bundles it, along with all transitive dependencies, into a single, self-contained tarball. No backend required; runs entirely in the browser via WebContainers. Built for deploying packages to air-gapped or network-restricted environments where direct registry access isn't available."
+          - "i18n.projects.packy.description"
     additional_experience_and_awards:
-      - label: "Top Graduate Computer Science Expert for Data and Process Analysis 2025 (Berlin)"
+      - label: "i18n.awards.top_graduate.label"
         details: "IHK Berlin"
     technologies:
       - label: "DevOps"
         details: "CI/CD (GitHub Actions), Docker, Podman, IaC, Linux, Git"
-      - label: "Data Engineering"
+      - label: "i18n.technologies.data_engineering"
         details: "Python, PySpark, SQL, Databricks, MQTT, IIoT"
-      - label: "Software Engineering"
+      - label: "i18n.technologies.software_engineering"
         details: "TypeScript, Node.js, React, Vue.js, Vite, Vitest, CSS"
-      - label: "Business"
+      - label: "i18n.technologies.business"
         details: "Product Management, Project Management, Community Management"
     certificates:
       - label: "GitHub Foundations"
         details: "GitHub · 2024-12"
     languages:
-      - label: "English"
-        details: "Full professional"
-      - label: "German"
-        details: "Native or bilingual"
+      - label: "i18n.languages.english.label"
+        details: "i18n.languages.english.details"
+      - label: "i18n.languages.german.label"
+        details: "i18n.languages.german.details"
 
 design:
   theme: harvard

@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'cv.yaml'
+      - 'locales/**'
       - 'pyproject.toml'
       - 'uv.lock'
       - 'scripts/**'
@@ -34,4 +35,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "docs: Update CV PDF and README"
-          file_pattern: 'dist/Torben-Haack.pdf README.md'
+          file_pattern: 'dist/Torben-Haack.pdf dist/Torben-Haack-de.pdf README.md dist/README.de.md'
