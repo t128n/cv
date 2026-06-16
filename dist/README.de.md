@@ -5,13 +5,10 @@
 - Website: [t128n.dev](https://t128n.dev/)
 
 
-# Additional Experience and Awards
-**Bester Absolvent Fachinformatik für Daten- und Prozessanalyse 2025 (Berlin):** IHK Berlin
+# Profil
+Technical Product Owner und Software Engineer mit Schwerpunkt auf Datensystemen, Platform Engineering und Developer Tooling. Leidenschaft für Open-Source-Technologien. Berufsbegleitendes Studium der Wirtschaftsinformatik an der BHT Berlin.
 
-# Certificates
-**GitHub Foundations:** GitHub · 2024-12
-
-# Education
+# Ausbildung
 ## **Berliner Hochschule für Technik (BHT)**, B.Sc. in Wirtschaftsinformatik (berufsbegleitend)
 
 **B.Sc.**
@@ -30,7 +27,7 @@ Sep 2022 – Dez 2024
 
 
 
-# Experience
+# Berufserfahrung
 ## **Mercedes-Benz AG**, Technical Product Owner & Software Engineer
 
 Jan 2026 – gegenwärtig
@@ -71,12 +68,7 @@ Sep 2022 – Jan 2025
 
 
 
-# Languages
-**Englisch:** Verhandlungssicher
-
-**Deutsch:** Muttersprache
-
-# Projects
+# Projekte
 ## **fidup-wiki**
 
 Nov 2025
@@ -91,10 +83,10 @@ Nov 2025
 
 
 
-# Summary
-Technical Product Owner und Software Engineer mit Schwerpunkt auf Datensystemen, Platform Engineering und Developer Tooling. Leidenschaft für Open-Source-Technologien. Berufsbegleitendes Studium der Wirtschaftsinformatik an der BHT Berlin.
+# Weitere Erfahrung und Auszeichnungen
+**Landesbester Absolvent Fachinformatik für Daten- und Prozessanalyse 2025 (Berlin):** IHK Berlin
 
-# Technologies
+# Technologien
 **DevOps:** CI/CD (GitHub Actions), Docker, Podman, IaC, Linux, Git
 
 **Data Engineering:** Python, PySpark, SQL, Databricks, MQTT, IIoT
@@ -102,3 +94,11 @@ Technical Product Owner und Software Engineer mit Schwerpunkt auf Datensystemen,
 **Software Engineering:** TypeScript, Node.js, React, Vue.js, Vite, Vitest, CSS
 
 **Business:** Product Management, Project Management, Community Management
+
+# Zertifikate
+**GitHub Foundations:** GitHub · 2024-12
+
+# Sprachen
+**Englisch:** Verhandlungssicher
+
+**Deutsch:** Muttersprache

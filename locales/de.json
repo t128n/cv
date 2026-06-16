@@ -1,4 +1,14 @@
 {
+  "sections": {
+    "summary": "Profil",
+    "education": "Ausbildung",
+    "experience": "Berufserfahrung",
+    "projects": "Projekte",
+    "additional_experience_and_awards": "Weitere Erfahrung und Auszeichnungen",
+    "technologies": "Technologien",
+    "certificates": "Zertifikate",
+    "languages": "Sprachen"
+  },
   "summary": "Technical Product Owner und Software Engineer mit Schwerpunkt auf Datensystemen, Platform Engineering und Developer Tooling. Leidenschaft für Open-Source-Technologien. Berufsbegleitendes Studium der Wirtschaftsinformatik an der BHT Berlin.",
   "education": {
     "bht": {
@@ -42,7 +52,7 @@
   },
   "awards": {
     "top_graduate": {
-      "label": "Bester Absolvent Fachinformatik für Daten- und Prozessanalyse 2025 (Berlin)"
+      "label": "Landesbester Absolvent Fachinformatik für Daten- und Prozessanalyse 2025 (Berlin)"
     }
   },
   "technologies": {

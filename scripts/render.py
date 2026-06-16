@@ -51,7 +51,12 @@ def resolve_i18n(value, locale):
         return [resolve_i18n(item, locale) for item in value]
 
     if isinstance(value, dict):
-        return {key: resolve_i18n(item, locale) for key, item in value.items()}
+        resolved = {}
+        for key, item in value.items():
+            if isinstance(key, str) and key.startswith("i18n."):
+                key = lookup_locale_value(locale, key.removeprefix("i18n."))
+            resolved[key] = resolve_i18n(item, locale)
+        return resolved
 
     return value
 
@@ -72,12 +77,12 @@ def render_language(language_code, config, template_data, yaml, output_dir):
 
     log(f"Rendering {language_code.upper()} CV for {name} using RenderCV...", "🚀")
     try:
-        subprocess.run(["rendercv", "render", "cv.yaml"], check=True, cwd=language_dir)
+        subprocess.run([sys.executable, "-m", "rendercv", "render", "cv.yaml"], check=True, cwd=language_dir)
     except subprocess.CalledProcessError as e:
         log(f"RenderCV failed for {language_code.upper()} with error: {e}", "❌")
         sys.exit(1)
     except FileNotFoundError:
-        log("RenderCV executable not found. Run this script through the project environment, for example: uv run scripts/render.py", "❌")
+        log("RenderCV module not found. Run this script through the project environment, for example: uv run scripts/render.py", "❌")
         sys.exit(1)
 
     mapping = {
@@ -91,7 +96,8 @@ def render_language(language_code, config, template_data, yaml, output_dir):
             log(f"Copying {src_path} to {dest_path}...", "📦")
             shutil.copy2(src_path, dest_path)
         else:
-            log(f"Warning: Could not find {src_name} in {language_dir}", "⚠️")
+            log(f"Could not find {src_name} in {language_dir}", "❌")
+            sys.exit(1)
 
 
 def render():
@@ -100,8 +106,9 @@ def render():
         log(f"Error: {cv_path} not found.", "❌")
         sys.exit(1)
 
-    yaml = YAML(typ='safe')
+    yaml = YAML()
     yaml.default_flow_style = False
+    yaml.preserve_quotes = True
 
     log(f"Loading CV template from {cv_path}...")
     with open(cv_path, "r", encoding="utf-8") as f:

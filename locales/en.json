@@ -1,4 +1,14 @@
 {
+  "sections": {
+    "summary": "Summary",
+    "education": "Education",
+    "experience": "Experience",
+    "projects": "Projects",
+    "additional_experience_and_awards": "Additional Experience and Awards",
+    "technologies": "Technologies",
+    "certificates": "Certificates",
+    "languages": "Languages"
+  },
   "summary": "Technical Product Owner and Software Engineer focused on data systems, platform engineering, and developer tooling. Passionate about open-source technology. Part-time student of Business Informatics at BHT Berlin.",
   "education": {
     "bht": {

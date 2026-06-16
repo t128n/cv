@@ -7,13 +7,10 @@ cv:
     - placeholder: "github.com/t128n"
       url: "https://github.com/t128n"
       fontawesome_icon: "user"
-    - placeholder: "Sifa ID"
-      url: "https://sifa.id/p/t128n.dev"
-      fontawesome_icon: "user"
   sections:
-    summary:
+    i18n.sections.summary:
       - "i18n.summary"
-    education:
+    i18n.sections.education:
       - institution: "Berliner Hochschule für Technik (BHT)"
         area: "i18n.education.bht.area"
         degree: "i18n.education.bht.degree"
@@ -26,7 +23,7 @@ cv:
         start_date: "2022-09"
         end_date: "2024-12"
         highlights: []
-    experience:
+    i18n.sections.experience:
       - company: "Mercedes-Benz AG"
         position: "i18n.experience.current.position"
         start_date: "2026-01"
@@ -53,7 +50,7 @@ cv:
           - "i18n.experience.apprenticeship.highlight_2"
           - "i18n.experience.apprenticeship.highlight_3"
           - "i18n.experience.apprenticeship.highlight_4"
-    projects:
+    i18n.sections.projects:
       - name: "fidup-wiki"
         date: "2025-11"
         highlights:
@@ -61,10 +58,10 @@ cv:
       - name: "Packy"
         highlights:
           - "i18n.projects.packy.description"
-    additional_experience_and_awards:
+    i18n.sections.additional_experience_and_awards:
       - label: "i18n.awards.top_graduate.label"
         details: "IHK Berlin"
-    technologies:
+    i18n.sections.technologies:
       - label: "DevOps"
         details: "CI/CD (GitHub Actions), Docker, Podman, IaC, Linux, Git"
       - label: "i18n.technologies.data_engineering"
@@ -73,10 +70,10 @@ cv:
         details: "TypeScript, Node.js, React, Vue.js, Vite, Vitest, CSS"
       - label: "i18n.technologies.business"
         details: "Product Management, Project Management, Community Management"
-    certificates:
+    i18n.sections.certificates:
       - label: "GitHub Foundations"
         details: "GitHub · 2024-12"
-    languages:
+    i18n.sections.languages:
       - label: "i18n.languages.english.label"
         details: "i18n.languages.english.details"
       - label: "i18n.languages.german.label"
