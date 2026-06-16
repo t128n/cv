@@ -38,7 +38,7 @@ Jan 2026 – gegenwärtig
 
 - IIoT Community Manager mit Aufbau von Wissensaustauschstrukturen und Engineering-Standards über Teams hinweg in einem globalen Automotive-Umfeld.
 
-- Fachtrainer für Auszubildende in IIoT, Data Engineering und Software-Engineering-Praktiken.
+- Fachausbilder für Auszubildende in IIoT, Data Engineering und Software-Engineering-Praktiken.
 
 
 
