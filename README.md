@@ -5,8 +5,11 @@
 - Website: [t128n.dev](https://t128n.dev/)
 
 
-# Summary
-Technical Product Owner and Software Engineer focused on data systems, platform engineering, and developer tooling. Passionate about open-source technology. Part-time student of Business Informatics at BHT Berlin.
+# Additional Experience and Awards
+**Top Graduate Computer Science Expert for Data and Process Analysis 2025 (Berlin):** IHK Berlin
+
+# Certificates
+**GitHub Foundations:** GitHub · 2024-12
 
 # Education
 ## **Berliner Hochschule für Technik (BHT)**, BS in Business Informatics (part-time)
@@ -68,6 +71,11 @@ Sept 2022 – Jan 2025
 
 
 
+# Languages
+**English:** Full professional
+
+**German:** Native or bilingual
+
 # Projects
 ## **fidup-wiki**
 
@@ -83,8 +91,8 @@ Nov 2025
 
 
 
-# Additional Experience and Awards
-**Top Graduate Computer Science Expert for Data and Process Analysis 2025 (Berlin):** IHK Berlin
+# Summary
+Technical Product Owner and Software Engineer focused on data systems, platform engineering, and developer tooling. Passionate about open-source technology. Part-time student of Business Informatics at BHT Berlin.
 
 # Technologies
 **DevOps:** CI/CD (GitHub Actions), Docker, Podman, IaC, Linux, Git
@@ -94,11 +102,3 @@ Nov 2025
 **Software Engineering:** TypeScript, Node.js, React, Vue.js, Vite, Vitest, CSS
 
 **Business:** Product Management, Project Management, Community Management
-
-# Certificates
-**GitHub Foundations:** GitHub · 2024-12
-
-# Languages
-**English:** Full professional
-
-**German:** Native or bilingual
